@@ -1,6 +1,6 @@
 /*BEGIN PS4 Controller Styling*/
 .controller.ds4 {
-    background: url(auraaBase.png);
+    background: url(auraaBase.svg);
     height: 644px;
     width: 806px;
     /*    margin-left: -403px;
@@ -25,7 +25,7 @@
 .ds4 .trigger {
     width: 99px;
     height: 100%;
-    background: url(auraaTriggers.png);
+    background: url(auraaTriggers.svg);
     opacity: 0;
 }
 
@@ -41,7 +41,7 @@
 .ds4 .bumper {
     width: 111px;
     height: 37px;
-    background: url(auraaBumper.png) no-repeat;
+    background: url(auraaBumper.svg) no-repeat;
     opacity: 0;
 }
 
@@ -77,7 +77,7 @@
 }
 
 .ds4 .touchpad.pressed {
-    background: url(auraaTouchpad.png) no-repeat center;
+    background: url(auraaTouchpad.svg) no-repeat center;
 }
 
 .ds4 .meta {
@@ -122,7 +122,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .back, .ds4 .start {
-    background: url(auraaStart.png);
+    background: url(auraaStart.svg);
     width: 26px;
     height: 42px;
     opacity: 0;
@@ -159,7 +159,7 @@ background-position: 0 -70px;
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(auraaButtons.png);
+    background: url(auraaButtons.svg);
 }
 
 .ds4 .button.pressed {
@@ -199,7 +199,7 @@ background-position: 0 -70px;
 
 .ds4 .stick {
     position: absolute;
-    background: url(auraaSticks.png);
+    background: url(auraaSticks.svg);
     height: 90px;
     width: 90px;
 }
@@ -231,7 +231,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .face {
-    background: url(auraaDpad.png);
+    background: url(auraaDpad.svg);
     position: absolute;
 }
 
