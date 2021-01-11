@@ -1,7 +1,7 @@
 /*BEGIN PS4 Controller Styling*/
 .controller.ds4 {
     background: url(auraaBase.svg);
-    height: 644px;
+    height: 598px;
     width: 806px;
     /*    margin-left: -403px;
         margin-top: -280px;*/
@@ -16,10 +16,10 @@
 }
 
 .ds4 .triggers {
-    width: 606px;
-    height: 93px;
+    width: 588px;
+    height: 90px;
     position: absolute;
-    left: 100px;
+    left: 109px;
 }
 
 .ds4 .trigger {
@@ -39,18 +39,18 @@
 }
 
 .ds4 .bumper {
-    width: 111px;
-    height: 37px;
+    width: 99px;
+    height: 23px;
     background: url(auraaBumper.svg) no-repeat;
     opacity: 0;
 }
 
 .ds4 .bumpers {
     position: absolute;
-    width: 624.3px;
+    width: 588px;
     height: 23px;
-    left: 92px;
-    top: 99px;
+    left: 109px;
+    top: 94px;
 }
 
 .ds4 .bumper.pressed {
@@ -69,11 +69,11 @@
 }
 
 .ds4 .touchpad {
-    width: 329px;
-    height: 180px;
+    width: 262px;
+    height: 151px;
     position: absolute;
-    left: 238px;
-    top: 104px;
+    left: 272px;
+    top: 122px;
 }
 
 .ds4 .touchpad.pressed {
@@ -81,15 +81,15 @@
 }
 
 .ds4 .meta {
-    width: 55px;
+    width: 42px;
     height: 42px;
     position: absolute;
-    left: 375px;
-    bottom: 262px;
+    left: 382px;
+    bottom: 216px;
 }
 
 .ds4 .meta.pressed {
-    background: url(auraaMeta.png) no-repeat center;
+    background: url(auraaMeta.svg) no-repeat center;
 }
 
 /*Not needed, but I like keeping them here for posterity*/
@@ -115,18 +115,17 @@ background-position: 0 -70px;
 }*/
 .ds4 .arrows {
     position: absolute;
-    width: 412px;
+    width: 352px;
     height: 46px;
-    top: 144px;
-    left: 197.5px;
+    top: 142px;
+    left: 227px;
 }
 
 .ds4 .back, .ds4 .start {
     background: url(auraaStart.svg);
-    width: 26px;
-    height: 42px;
+    width: 28px;
+    height: 46px;
     opacity: 0;
-
 }
 
 .ds4 .back.pressed, .ds4 .start.pressed {
@@ -143,16 +142,15 @@ background-position: 0 -70px;
 .ds4 .start {
     float: right;
     /* width: 28px; */
-    background-position: 26px 0;
-    transform:scaleX(-1);
+    background-position: 28px 0;
 }
 
 .ds4 .abxy {
     position: absolute;
-    width: 177px;
-    height: 177px;
-    top: 167px;
-    left: 572px;
+    width: 170px;
+    height: 171px;
+    top: 159px;
+    left: 567px;
 }
 
 .ds4 .button {
@@ -170,46 +168,46 @@ background-position: 0 -70px;
 .ds4 .a {
     background-position: 0 0;
     bottom: 0;
-    left: 61px;
+    left: 58px;
 }
 
 .ds4 .b {
     background-position: -57px 0;
-    top: 62px;
+    top: 58px;
     right: 0px;
 }
 
 .ds4 .x {
     background-position: -113px 0;
-    top: 62px;
+    top: 58px;
 }
 
 .ds4 .y {
     background-position: 55px 0;
-    left: 61px;
+    left: 58px;
 }
 
 .ds4 .sticks {
     position: absolute;
-    width: 371px;
+    width: 361px;
     height: 105px;
-    top: 324px;
-    left: 226px;
+    top: 308px;
+    left: 228px;
 }
 
 .ds4 .stick {
     position: absolute;
     background: url(auraaSticks.svg);
-    height: 90px;
-    width: 90px;
+    height: 94px;
+    width: 94px;
 }
 
 .ds4 .stick.pressed.left {
-    background-position-x: -90px;
+    background-position-x: -96px;
 }
 
 .ds4 .stick.pressed.right {
-    background-position-x: -180px;
+    background-position-x: -192px;
 }
 
 .ds4 .stick.left {
@@ -224,10 +222,10 @@ background-position: 0 -70px;
 
 .ds4 .dpad {
     position: absolute;
-    width: 141px;
-    height: 140px;
-    top: 185px;
-    left: 76px;
+    width: 125px;
+    height: 126px;
+    top: 181px;
+    left: 92px;
 }
 
 .ds4 .face {
@@ -236,23 +234,23 @@ background-position: 0 -70px;
 }
 
 .ds4 .face.up, .ds4 .face.down {
-    width: 50px;
-    height: 63px;
+    width: 36px;
+    height: 52px;
 }
 
 .ds4 .face.left, .ds4 .face.right {
-    width: 63px;
-    height: 50px;
+    width: 52px;
+    height: 36px;
 }
 
 .ds4 .face.up {
-    left: 45px;
+    left: 44px;
     top: 0;
-    background-position: -52px 0px;
+    background-position: -37px 0px;
 }
 
 .ds4 .face.down {
-    left: 45px;
+    left: 44px;
     bottom: 0;
     background-position: 0px 0;
 }
@@ -260,18 +258,18 @@ background-position: 0 -70px;
 .ds4 .face.left {
     top: 45px;
     left: 0;
-    background-position: 127px 0;
+    background-position: 104px 0;
 }
 
 .ds4 .face.right {
-    top: 44px;
+    top: 45px;
     right: 0px;
-    background-position: 63.1px 0;
+    background-position: 52px 0;
 }
 
 .ds4 .face.pressed {
     /* margin-top: 5px; */
-    background-position-y: 63px;
+    background-position-y: 52px;
 }
 
 .ds4.half {
