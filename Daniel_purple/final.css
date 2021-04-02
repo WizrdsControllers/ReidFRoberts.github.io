@@ -44,8 +44,8 @@
 }
 
 .xbox .bumper {
-    width: 170px;
-    height: 61px;
+    width: 164px;
+    height: 58px;
     background: url(bumper.svg);
     opacity: 0;
 }
@@ -188,7 +188,7 @@
     background: url(stick.svg);
     background-position: -85px 0;
     height: 83px;
-    width: 85px;
+    width: 83px;
 }
 
 .xbox .stick.pressed {
