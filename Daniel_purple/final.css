@@ -27,8 +27,8 @@
 }
 
 .xbox .trigger {
-    width: 88px;
-    height: 121px;
+    width: 88.3px;
+    height: 121.15px;
     background: url(trigger.svg);
     opacity: 0;
 }
